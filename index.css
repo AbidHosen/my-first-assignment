@@ -166,3 +166,53 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+
+/* park-section */
+.park-section{
+    max-width: 1320px;
+    margin: 70px auto;
+    position: relative;
+}
+.park-section::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+    border-radius: 16px;
+}
+.park-text {
+	text-align: center;
+	padding: 68px 50px;
+}
+.park-text p{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.park-text span{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px; 
+    text-transform: capitalize;
+}
+.btn-primary {
+	color: #FFF;
+	text-align: center;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 8px;
+	background: #F00;
+	border: none;
+	padding: 15px 35px;
+}
